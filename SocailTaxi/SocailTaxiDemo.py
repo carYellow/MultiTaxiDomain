@@ -36,7 +36,7 @@ def main():
 
 
     for taxi in taxis_list:
-        taxi.take_social_path(3)
+        taxi.take_social_path(3) #Taxi can devaite from its path by 3 steps to help out another passenger
 
 
 if __name__ == "__main__":
